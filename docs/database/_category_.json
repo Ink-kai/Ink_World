@@ -1,0 +1,8 @@
+{
+  "label": "数据库优化",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "数据库优化相关文档集合，包含索引优化、查询优化等内容。"
+  }
+} 
