@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Ink World",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  },
+  "item.label.数据库": {
+    "message": "数据库",
+    "description": "Navbar item with label 数据库"
+  },
+  "item.label.友链": {
+    "message": "友链",
+    "description": "Navbar item with label 友链"
+  },
+  "item.label.关于": {
+    "message": "关于",
+    "description": "Navbar item with label 关于"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

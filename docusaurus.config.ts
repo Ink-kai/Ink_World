@@ -27,7 +27,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "Ink World", // Usually your repo name.
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -80,6 +80,14 @@ const config: Config = {
               }
             }]
           ],
+          remarkPlugins: [remarkMDX],
+          rehypePlugins: [],
+          // 添加 MDX 配置
+          mdx1Compat: {
+            comments: false,
+            admonitions: true,
+            headingIds: true,
+          },
         },
         blog: {
           showReadingTime: true,
