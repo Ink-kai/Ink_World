@@ -24,8 +24,8 @@ const config: Config = {
   baseUrl: "/",
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  // organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "", // Usually your repo name.
+  organizationName: "ink-kai", // 你的 GitHub 用户名
+  projectName: "ink-kai.github.io", // 必须是这个格式：username.github.io
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   // Even if you don't use internationalization, you can use this field to set
