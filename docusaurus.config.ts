@@ -1,7 +1,6 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
-import remarkMDX from 'remark-mdx';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -69,25 +68,9 @@ const config: Config = {
           //     path: "",
           //   },
           // },
-          beforeDefaultRemarkPlugins: [
-            [remarkMDX, {
-              // 全局注册组件
-              jsx: true,
-              providerImportSource: '@theme',
-              globalComponents: {
-                Tabs: '@theme/Tabs',
-                TabItem: '@theme/TabItem'
-              }
-            }]
-          ],
-          remarkPlugins: [remarkMDX],
+          beforeDefaultRemarkPlugins: [],
+          remarkPlugins: [],
           rehypePlugins: [],
-          // 添加 MDX 配置
-          mdx1Compat: {
-            comments: false,
-            admonitions: true,
-            headingIds: true,
-          },
         },
         blog: {
           showReadingTime: true,
