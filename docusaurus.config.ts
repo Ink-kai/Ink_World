@@ -25,7 +25,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   // organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "Ink World", // Usually your repo name.
+  projectName: "", // Usually your repo name.
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   // Even if you don't use internationalization, you can use this field to set
